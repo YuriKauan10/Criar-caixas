@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(187, 164, 252);
+}
+
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+}
+
+.filho{
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: yellow 5px solid;
+}
+
+#btn{
+    cursor: pointer;
+    background-color: rgb(143, 28, 197);
+    color: white;
+    border: none;
+    margin: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#btn:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(125, 30, 189);
+}
